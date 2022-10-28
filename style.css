@@ -31,6 +31,7 @@ ol{
   li {
     display: block;
     color:black;
+    font-size: 1.3rem;
   }
   li:before {
     content: counters(item, ".") " ";
@@ -45,4 +46,8 @@ ol{
 }
 #TOC_Heading{
     color: black;
+}
+a{
+    text-decoration: none;
+    color: blue;
 }
