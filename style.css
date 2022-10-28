@@ -25,3 +25,22 @@ h4{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
 }
+ol {
+    counter-reset: item;
+  }
+  li {
+    display: block;
+    color:black;
+  }
+  li:before {
+    content: counters(item, ".") " ";
+    counter-increment: item;
+  }
+#TableContents{
+    background-color: rgb(236, 224, 224);
+    box-shadow:  0 0 10px  rgba(255, 255, 255, 0.6);
+    border:0.2rem solid black;
+    width: 27rem;
+    margin-left: 11rem;
+
+}
