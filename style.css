@@ -40,6 +40,9 @@ li{
     font-size: 1.2rem;
 }
 
+.gitCommandsLi{
+    color: white;
+}
 #TableContents{
     background-color: rgb(236, 224, 224);
     box-shadow:  0 0 10px  rgba(255, 255, 255, 0.6);
