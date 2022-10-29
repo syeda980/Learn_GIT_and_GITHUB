@@ -40,6 +40,9 @@
             </li>
             <li class="tocLi"><a href="#section7">Git Commands</a> 
             </li>
+        </li>
+        <li class="tocLi"><a href="#section8">Merging Conflicts and Solutions</a> 
+        </li>
           </ol>
     </div>
     <div class="container my-5 "id="section1">
@@ -109,7 +112,7 @@
     <div class="container my-4 " id="section7">
         <h3><u>Git Commands</u></h3>
         <p class="sections_p">
-            Here are some git basic git commands. We will learn them one by one.
+            Here are some git basic git commands.
         </p>
         <ul>
             <li>git init</li>                    
@@ -124,9 +127,12 @@
             <li>Branches</li>
             <li>git merge</li>
         </ul>
+        <p class="sections_p">
+            We will get to know about these one by one.
+        </p>
     </div>
-    <div class="container">
-        <ol>
+    <div class="container" style="margin-left:8rem ;">
+        <ul>
             <li class="gitCommandsLi">
                 <h3>git init</h3>
                 <p class="sections_p">
@@ -243,12 +249,28 @@
                     <li><b>git checkout (branchName)</b></li>
                 </ul>
                 Excuting git checkout lets you switch between branches.  
+                Here now HEAD points to branch2
+                <br>
+                <img src="/images/gitcheckout.png" style="display:flex; height:15rem; width:40rem">
             </p>
-        </li>
-
-
-      </ol>
-
+            <p class="sections_p">
+                <ul style="list-style-type:disc;">
+                    <li><b>git merge</b></li>
+                </ul>
+                The git merge command combines the independent lines of development created by git branch into a single branch.
+                A git merge operation is performed by running the command “git merge (name of branch to e merges)
+                When we perform merging, git always merges with the current branch from where we are performing the operation.
+                <br>
+                <img src="/images/gitmerge.png" style="display:flex; height:10rem; width:45rem">
+            </p>
+        </li>          
+    </ul>
+    </div>
+    <div class="container my-4 " id="section7">
+        <h3><u>Merging Conflicts and Solutions</u></h3>
+        <p class="sections_p">
+            
+        </p>
     </div>
 
     <button
