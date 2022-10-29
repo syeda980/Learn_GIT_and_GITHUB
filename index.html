@@ -115,9 +115,9 @@
             <li>git init</li>                    
             <li>git config</li>
             <li>git add</li>
+            <li>git status</li>
             <li>git commit</li>
             <li>git reset</li>
-            <li>git status</li>
             <li>git clone</li>
             <li>git push</li>
             <li>git pull</li>
@@ -137,6 +137,39 @@
                 <p class="sections_p">This will create a folder named .git inside your project folder.It contains all of the necessary Git metadata for the new repository. This metadata includes subdirectories for objects, refs, and template files Since this is a hidden folder, Incase it is not visible, Go to view option from top menu in your explorere and check mark the hidden items option. After that the folder will be visible.</p>
                 <img src="/images/gitFolder.png" style="display:flex ; height: 30rem; width:50rem"> 
             </li>
+            <br>
+            <li class="gitCommandsLi">
+                <h3>git config</h3>
+                <p class="sections_p">
+                    The git config command is a convenience function that is used to set Git configuration values on a global or local project level.
+                    It will modify the configuration file.Some common configuration settings like email, username, and editor  can be set on local or global level of project.
+                </p>
+                <img src="/images/gitconfig.png" style="display:flex ; height: 12rem; width:35rem"> 
+                <p class="sections_p">
+                    This example writes the value your_email@example.com to the configuration name user.email and Your Name to the confiuration name user.name. It uses the --global flag so this value is set for the current operating system user.
+                </p>
+            </li>
+            <br>
+            <li class="gitCommandsLi">
+                <h3>git add</h3>
+                <p class="sections_p">
+                    The git add command adds a change in the working directory to the staging area. It tells Git that you want to include updates to a particular file in the next commit.It is a way to record versions of a project into the repository's history.
+                    git add . add all the files in one go to staging area
+                </p>
+                <img src="/images/gitadd.png" style="display:flex ; height: 12rem; width:35rem"> 
+                <p class="sections_p">
+                    git add (fileName) adds specific file to staging area.
+                </p>
+                <img src="/images/gitaddOne.png" style="display:flex ; height: 12rem; width:35rem"> 
+           </li>
+           <li class="gitCommandsLi">
+            <h3>git status</h3>
+            <p class="sections_p">
+                The working directory and staging area's status are shown by the git status command. It enables you to identify which files are not being tracked by Git as well as which changes have been staged and which have not. 
+                Here git status shows that there are changes in mentioned file which are not being tracked by git.
+            </p>
+            <img src="/images/gitstatus.png" style="display:flex ; height: 12rem; width:35rem"> 
+           </li>
         </ol>
     </div>
 
